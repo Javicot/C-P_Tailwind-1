@@ -9,11 +9,28 @@
   <link rel="stylesheet" href="/CSS/tailwind.css">
 </head>
 
-<body>
-  <h1 class="bg-emerald-200 text-blue-900">Mi primer titulo en mi html usando tailwind</h1>
-  <p class="text-2xl">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo magnam consequatur id quo
-    illum in quibusdam,
-    ducimus iste possimus ex aspernatur! Soluta voluptate dolores incidunt deserunt quibusdam impedit at tempora.</p>
+<body class="min-h-screen bg-gray-400">
+  <section class="m-3 sm:w-full sm:flex sm:items-center">
+    <figure class="w-full ">
+      <img class="w-full rounded-xl sm:rounded-r-none"
+        src="https://images.pexels.com/photos/1639562/pexels-photo-1639562.jpeg?auto=compress&cs=tinysrgb&w=600&h=550&dpr=2"
+        alt="imagen de hamburguesa">
+    </figure>
+
+    <div
+      class="bg-slate-200 rounded-lg relative -mt-4 px-2 w-11/12 mx-auto pb-4 sm:m-0 sm:rounded-r-lg sm:rounded-l-none sm:h-5/6">
+      <h2 class="text-2xl font-bold ">Burguer super rica</h2>
+      <p class="text-gray-500 mb-2 sm:text-sm">Esta hamburguesa es la mejor del mundo y posiblemente te sea la mejor que
+        hayas
+        probado
+        en tu vida</p>
+      <p class="text-sm mb-2 text-green-600">BS. 3.99</p>
+      <div class="flex gap-x-3">
+        <p class="text-yellow-600">&starf;&starf;&starf;&starf;&star; / 47 reviews</p>
+        <p></p>
+      </div>
+    </div>
+  </section>
 </body>
 
 </html>

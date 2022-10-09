@@ -4,7 +4,9 @@
   "description": "Este es un curso de la plataforma profesional Platzi donde vamos a hacer uso de el framework TailwindCSS, para crear el proyecto Platzi-Food.",
   "main": "index.js",
   "scripts": {
-    "dev": "vite"
+    "dev": "vite",
+    "production": "vite build",
+    "preview": "vite preview"
   },
   "repository": {
     "type": "git",

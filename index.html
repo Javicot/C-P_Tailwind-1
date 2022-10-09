@@ -19,8 +19,35 @@
     <p class="mr-2 text-3xl cursor-pointer text-center">&equiv;</p>
   </header>
 
+  <!--*======================================BARRA DE BUSQUEDA -->
+  <section>
+    <input class="w-full p-1 leading-snug border border-blue-700 text-gray-800 bg-gray-200" placeholder="Busqueda..."
+      type="search" name="" id="">
+    <div class="flex justify-evenly flex-col sm:flex-row sm:items-center">
+      <div class="flex gap-1  ml-2">
+        <h3>Precios:</h3>
+        <p>$</p>
+        <p class="text-primary-y">$$</p>
+        <p>$$$</p>
+        <p>$$$$</p>
+      </div>
+      <div class="flex ml-2">
+        <h3 class="mr-2">Calificacion:</h3>
+        <p class="text-primary-y">&starf; </p>
+        <p class="text-primary-y">&starf; </p>
+        <p class="text-primary-y">&starf; </p>
+        <p class="text-primary-y">&starf; </p>
+        <p>&star; </p>
+      </div>
+      <div class="ml-2">
+        <button
+          class="bg-primary-y px-3 py-1 rounded-lg my-3 cursor-pointer hover:bg-secondary-lg hover:text-primary-y">Filtrar</button>
+      </div>
+    </div>
+  </section>
+
   <!--*======================================MAIN -->
-  <main class="w-full">
+  <main class=" w-full">
     <!-- <img class="w-full mx-auto sm:h-100"
       src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=667&q=80"
       alt=""> -->
@@ -29,31 +56,129 @@
   </main>
 
   <!--*======================================CARD -->
-  <section class="m-3 sm:w-80 sm:flex sm:items-center sm:h-28">
-    <!-- IMAGEN -->
-    <figure class="w-full">
-      <img class="w-full rounded-xl sm:rounded-r-none sm:w-full"
-        src="https://images.pexels.com/photos/1639562/pexels-photo-1639562.jpeg?auto=compress&cs=tinysrgb&w=600&h=550&dpr=2"
-        alt="imagen de hamburguesa">
-    </figure>
+  <!--****CARD CONTAINER -->
+  <section class="sm:grid sm:grid-cols-2 md:grid md:grid-cols-3 lg:grid-cols-4">
+    <!-- card1 -->
+    <section class="m-3">
+      <!-- IMAGEN -->
+      <figure class="w-full">
+        <img class="w-full rounded-xl "
+          src="https://images.pexels.com/photos/1639562/pexels-photo-1639562.jpeg?auto=compress&cs=tinysrgb&w=600&h=550&dpr=2"
+          alt="imagen de hamburguesa">
+      </figure>
 
-    <!-- DESCRIPCION -->
-    <div
-      class="bg-slate-200 rounded-lg relative -mt-4 px-2 w-11/12 mx-auto pb-4 sm:pb-0 sm:m-0 sm:rounded-r-lg sm:rounded-l-none sm:w-full h-full">
-      <h2 class="text-2xl font-bold sm:text-base">Burguer super rica</h2>
-      <p class="text-gray-500 mb-2 sm:text-sm sm:hidden">Esta hamburguesa es la mejor del mundo y posiblemente te sea
-        la
-        mejor que hayas probado en tu vida</p>
-      <p class="text-sm mb-2 text-green-600 sm:text-xs ">BS. 3.99</p>
-      <div class="flex gap-x-3">
-        <p class="text-yellow-600 sm:text-sm">&starf;&starf;&starf;&starf;&star; / 47 reviews</p>
-        <p></p>
+      <!-- DESCRIPCION -->
+      <div class="bg-slate-200 rounded-lg relative -mt-4 px-2 w-11/12 mx-auto pb-4">
+        <h2 class="text-2xl font-bold sm:text-base">Burguer super rica</h2>
+        <p class="text-gray-500 mb-2 sm:text-sm sm:hidden">Esta hamburguesa es la mejor del mundo y posiblemente te sea
+          la mejor que hayas probado en tu vida</p>
+        <p class="text-sm mb-2 text-green-600 sm:text-xs ">BS. 3.99</p>
+        <div class="flex gap-x-3">
+          <p class="text-yellow-600 sm:text-sm">&starf;&starf;&starf;&starf;&star; / 47 reviews</p>
+          <p></p>
+        </div>
       </div>
-    </div>
+    </section>
+    <!-- card2 -->
+    <section class="m-3">
+      <!-- IMAGEN -->
+      <figure class="w-full">
+        <img class="w-full rounded-xl "
+          src="https://images.pexels.com/photos/1639562/pexels-photo-1639562.jpeg?auto=compress&cs=tinysrgb&w=600&h=550&dpr=2"
+          alt="imagen de hamburguesa">
+      </figure>
+
+      <!-- DESCRIPCION -->
+      <div class="bg-slate-200 rounded-lg relative -mt-4 px-2 w-11/12 mx-auto pb-4">
+        <h2 class="text-2xl font-bold sm:text-base">Burguer super rica</h2>
+        <p class="text-gray-500 mb-2 sm:text-sm sm:hidden">Esta hamburguesa es la mejor del mundo y posiblemente te sea
+          la mejor que hayas probado en tu vida</p>
+        <p class="text-sm mb-2 text-green-600 sm:text-xs ">BS. 3.99</p>
+        <div class="flex gap-x-3">
+          <p class="text-yellow-600 sm:text-sm">&starf;&starf;&starf;&starf;&star; / 47 reviews</p>
+          <p></p>
+        </div>
+      </div>
+    </section>
+    <!-- card3 -->
+    <section class="m-3">
+      <!-- IMAGEN -->
+      <figure class="w-full">
+        <img class="w-full rounded-xl "
+          src="https://images.pexels.com/photos/1639562/pexels-photo-1639562.jpeg?auto=compress&cs=tinysrgb&w=600&h=550&dpr=2"
+          alt="imagen de hamburguesa">
+      </figure>
+
+      <!-- DESCRIPCION -->
+      <div class="bg-slate-200 rounded-lg relative -mt-4 px-2 w-11/12 mx-auto pb-4">
+        <h2 class="text-2xl font-bold sm:text-base">Burguer super rica</h2>
+        <p class="text-gray-500 mb-2 sm:text-sm sm:hidden">Esta hamburguesa es la mejor del mundo y posiblemente te sea
+          la mejor que hayas probado en tu vida</p>
+        <p class="text-sm mb-2 text-green-600 sm:text-xs ">BS. 3.99</p>
+        <div class="flex gap-x-3">
+          <p class="text-yellow-600 sm:text-sm">&starf;&starf;&starf;&starf;&star; / 47 reviews</p>
+          <p></p>
+        </div>
+      </div>
+    </section>
+    <!-- card4 -->
+    <section class="m-3">
+      <!-- IMAGEN -->
+      <figure class="w-full">
+        <img class="w-full rounded-xl "
+          src="https://images.pexels.com/photos/1639562/pexels-photo-1639562.jpeg?auto=compress&cs=tinysrgb&w=600&h=550&dpr=2"
+          alt="imagen de hamburguesa">
+      </figure>
+
+      <!-- DESCRIPCION -->
+      <div class="bg-slate-200 rounded-lg relative -mt-4 px-2 w-11/12 mx-auto pb-4">
+        <h2 class="text-2xl font-bold sm:text-base">Burguer super rica</h2>
+        <p class="text-gray-500 mb-2 sm:text-sm sm:hidden">Esta hamburguesa es la mejor del mundo y posiblemente te sea
+          la mejor que hayas probado en tu vida</p>
+        <p class="text-sm mb-2 text-green-600 sm:text-xs ">BS. 3.99</p>
+        <div class="flex gap-x-3">
+          <p class="text-yellow-600 sm:text-sm">&starf;&starf;&starf;&starf;&star; / 47 reviews</p>
+          <p></p>
+        </div>
+      </div>
+    </section>
   </section>
+
+  <!--*===========================================FORMULARIO  -->
+  <section class="my-3 bg-white">
+    <form action="" class="mx-2 flex justify-center sm:w-full">
+      <fieldset>
+        <h2 class="text-center text-3xl">Contáctanos</h2>
+
+        <div>
+          <label class="block" for="">Nombre</label>
+          <input class="p-1 leading-snug border border-blue-700 text-gray-800 bg-gray-200 sm:w-full" type="text"
+            placeholder="Tu nombre">
+        </div>
+
+        <div>
+          <label class="block" for="">Correo</label>
+          <input class=" p-1 leading-snug border border-blue-700 text-gray-800 bg-gray-200 sm:w-full" type="email "
+            placeholder="Tu correo electronico">
+        </div>
+
+        <div>
+          <label class="block" for="">Comentarios</label>
+          <textarea class="p-1 leading-snug border border-blue-700 text-gray-800 bg-gray-200 sm:w-full" name="" id=""
+            cols="23" rows="5"></textarea>
+        </div>
+
+        <input
+          class="bg-primary-y px-6 py-3 rounded-lg my-3 cursor-pointer hover:bg-secondary-lg hover:text-primary-y ml-28"
+          type="submit" value="Enviar">
+      </fieldset>
+    </form>
+  </section>
+
+
   <!--*==========================================FOOTER -->
   <!-- <footer class="bg-yellow-800 absolute bottom-0 w-full flex flex-col items-center justify-around sm:flex-row"> -->
-  <footer class="bg-secondary-y absolute sm:bottom-0 w-full grid grid-cols-1 sm:grid-cols-2 text-white">
+  <footer class="bg-secondary-y absolute  w-full grid grid-cols-1 sm:grid-cols-2 text-white">
     <section class="ml-4 mt-4">
       <div class="flex">
         <li class="cursor-pointer hover:underline hover:text-blue-700">Facebook </li>
@@ -92,7 +217,6 @@
       <li class="cursor-pointer">Registro</li>
       <li class="cursor-pointer">Aviso de Privacidad</li>
     </section>
-
   </footer>
 </body>
 

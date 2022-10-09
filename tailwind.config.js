@@ -19,9 +19,11 @@ module.exports = {
         100: "25rem",
       },
       maxWidth: {
-        cien: "62.5rem",
+        un: "15rem",
+        cienn: "62.5rem",
       },
       minWidth: {
+        unos: "10.5rem",
         tress: "20rem",
         cuatros: "25rem",
       },
